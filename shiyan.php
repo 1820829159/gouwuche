@@ -1,5 +1,7 @@
 <?php
 session_start();
+<?php
+session_start();
 $username=$_SESSION['gname'];
 include_once 'Mysql.class.php';
 include_once 'mysqsl.config.php';
@@ -57,7 +59,7 @@ return $list;
     <div id="lleft">
         <div class="toutou">管理菜单</div>
         <div class="ttt">
-            <div onclick="hid('one')" id="l1">分类列表</div>
+            <div onclick="hid('one')" id="l1" style="background: cornflowerblue">分类列表</div>
             <div onclick="hid('two')" id="l2">商品添加</div>
             <div onclick="hid('three')" id="l3">商品列表</div>
             <div onclick="hid('four')" id="l4">分类添加</div>
@@ -123,15 +125,15 @@ return $list;
         rthree.style.display="none";
         rfour.style.display="none";
         rfive.style.display="none";
-        lone.style.backgroundColor="#F4F7F4";
-           ltwo.style.backgroundColor="#F4F7F4";
+        lone.style.background="#F4F7F4";
+           ltwo.style.background="#F4F7F4";
            lthree.style.background="#F4F7F4";
            lfour.style.background="#F4F7F4";
            lfive.style.background="#F4F7F4";
-           num='r'+num;
-        eval(num).style.display="block";
-        num='l'+num;
-        eval(num).style.backgroundColor="blue"
+           let num1='r'+num;
+        eval(num1).style.display="block";
+        let num2='l'+num;
+        eval(num2).style.background="cornflowerblue"
         }
     </script>
     </body>
