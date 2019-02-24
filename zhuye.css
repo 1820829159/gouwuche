@@ -1,0 +1,549 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.logo1{
+    left: 40px;
+    display: inline-block;
+    top: 70px;
+    position: absolute;
+    padding-right: 0;
+}
+#zong{
+    padding: 0;
+    background-color: gainsboro;
+    height: 50px;
+}
+.leftd{
+    position: absolute;
+    top: 0px;
+    left: 10px;
+}
+.rightd{
+    position: absolute;
+    top: 0px;
+    right: 10px;
+}
+#spe{
+    color: orangered;
+}
+.shape{
+    margin:20px auto;
+    color: lightslategray;
+    list-style-type: none;
+}
+.shape li{
+    float: left;
+    margin-left: 20px;
+}
+.shape li a{
+    display: block;
+    text-decoration: none;
+    color: lightslategray;
+    font-size: 15px;
+    z-index: -1;
+}
+#logo{
+    margin-left:20px;
+    display: inline-block;
+}
+.formd{
+    background-color: #FEF2EA;
+    width: 340px;
+    height: 340px;
+    border-radius: 10px;
+    font-size: 20px;
+    color: black;
+    border:1px solid #ddd;
+    padding-left: 20px;
+    position: absolute;
+    top: 60px;
+    left: 800px;
+}
+#shangjia li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 0;
+    margin:0;
+}
+#shangjia ul{
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    background: white;
+    border: 1px solid #BBBBBB;
+    border-top: 0;
+    line-height: 20px;
+    height: 60px;
+}
+#list{
+    display: none;
+}
+.dengk{
+    background: orangered;
+    margin-top: 10px;
+    height: 450px;
+    position: relative;
+}
+.logo2{
+    padding-left: 40px;
+}
+.shangm {
+    height: 60px;
+    margin-top: 15px;
+}
+a{
+    text-decoration: none;
+}
+.tiaozhu{
+    color:black;
+    font-size: 15px;
+    margin-left: 60px;
+    position: relative;
+    top: 20px;
+}
+.guantiao{
+    color:black;
+    font-size: 15px;
+    position: relative;
+    top: 20px;
+    margin-left: 55px;
+}
+.tiaozhu:hover,.guantiao:hover{
+    color:red;
+}
+input{
+    height: 35px;
+    width: 300px;
+    margin-top: 20px;
+}
+.zuotu{
+    font-size: 60px;
+    color:#FFE6BE;
+    background: orangered;
+    padding-left: 100px;
+    height: 300px;
+    padding-top: 100px;
+}
+.deng{
+    background-color: orangered;
+    width:300px;
+    height: 45px;
+    margin-top: 20px;
+    border: 0px;
+    color: white;
+    font-size: 20px;
+}
+.btnf-search{
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 200px;
+}
+.search{
+    margin-left: 30px;
+    display: inline-block;
+    height: 45px;
+    width: 500px;
+    border-color: orangered;
+    border-width: 2px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.logoo{
+    display: inline-block;
+}
+.btn-search{
+    display: inline-block;
+    vertical-align: bottom;
+    width: 80px;
+    height: 51px;
+    background-color: #FF8900;
+    border-width: 0;
+    color: white;
+    font-size: 17px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.zcl{
+    display: inline-block;
+    vertical-align: top;
+    padding: 0;
+}
+.tiaozhuan{
+    display: inline-block;
+}
+.zhubody{
+    position: relative;
+   margin: 0px;
+    padding: 0px;
+}
+.side{
+    width:500px;
+    height:100%;
+}
+.rightk{
+    position: relative;
+    margin-left:500px;
+}
+.leftk{
+    position:absolute;
+    left:0px;
+    background-image: url("TIM图片20190207223246.jpg");
+    background-size: 500px 800px;
+    height:800px;
+    width:500px;
+}
+.welcome{
+    font-size: 40px;
+}
+.chahua{
+    font-size: 30px;
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 64px;
+}
+.dakuangkuang{
+    text-align: center;
+}
+.zhucebiao{
+    padding: 20px;
+    text-align: center;
+}
+.zhucebiao input{
+    width: 500px;
+    height: 50px;
+    margin-top: 40px;
+    border-radius: 10px;
+    border-width: 0.5px;
+    font-size: 20px;
+}
+.zhuce{
+    width: 500px;
+    height: 60px;
+    background: #2F7BEB;
+    margin-top: 60px;
+    color: white;
+    border-width: 0;
+    font-size: 24px;
+}
+.gouwuche{
+    font-size: 20px;
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+    width: 600px;
+    margin: auto;
+}
+.gouwuche td{
+    text-align: center;
+}
+.gouwuche td a{
+    margin-left: 30px;
+}
+.gouwuche th{
+    width:170px;
+    text-align: center;
+}
+.yichu{
+    text-align: center;
+}
+.yichu a:link,.yichu a:visited{
+    color: #aaa;
+}
+.yichu a:hover{
+    color: orangered;
+    text-decoration: orangered;
+}
+.jiesuan{
+    color: white;
+    background: orangered;
+    text-align: center;
+}
+.jiesuan a{
+    color: white;
+}
+.gouwuche tr td,th{
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+.shuliang{
+    width: 70px;
+    text-align: center;
+}
+.shang{
+    left: 40px;
+    position: absolute;
+}
+#shang1,#shang2,#shang3{
+    display: inline-block;
+    vertical-align: bottom;
+    width: 400px;
+    height: 60px;
+    text-align: center;
+    border:0px solid;
+    background: #F2F3F7;
+}
+#div1,#div2,#div3 {
+    position: absolute;
+    top: 130px;
+    left: 40px;
+    width: 1100px;
+}
+#div3{
+    text-align: center;
+}
+.xiao1 {
+    border: 1px solid #b6c6d7;
+    width: 1100px;
+}
+#div3,#div2{
+    text-align: center;
+    margin:auto;
+}
+#div1 button,#div2 button,#div3 button {
+    width: 120px;
+    text-align: center;
+    height: 40px;
+    border: 0 solid white;
+    margin-left: 300px;
+    background: cornflowerblue;
+    margin-top: 30px;
+}
+.answer{
+    color: #aaa;
+
+}
+.fenlei li{
+display: inline-block;
+}
+.tree ul li{
+    list-style-type: none;
+}
+#lleft{
+    position:fixed;
+    left: 20px;
+    width: 230px;
+    top: 60px;
+    height: 300px;
+    padding: 0px;
+    border: 1px solid #BBBBBB;
+}
+#lleft .ttt{
+    list-style-type: none;
+}
+#lleft .ttt div{
+    text-align: left;
+    margin-top: 20px;
+    width:230px;
+    height: 30px;
+}
+.toutou{
+    background: #BBBBBB;
+    margin-top: 0;
+    padding: 0;
+    height: 40px;
+    font-size: 20px;
+}
+#rright,#rright2,#rright3,#rright4,#rright5{
+    position: absolute;
+    margin-left: 320px;
+    width: 400px;
+    padding: 0;
+    top: 50px;
+}
+ .tao{
+    width: 380px;
+    border: #BBBBBB 1px solid;
+}
+#rright table{
+    border: none;
+    width:300px ;
+    margin: auto;
+    color: #C5C4C5;
+}
+#rright table a{
+    color:green;
+}
+#rright table td{
+    border-bottom: #BBBBBB 1px solid;
+}
+#rright table tr{
+    height: 30px;
+}
+.guanlid{
+    width: 400px;
+    height: 400px;
+    border: #BBBBBB 0.5px solid;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.guanlid input{
+    border: 0.5px;
+    width:250px;
+    height: 30px;
+}
+.guanlid p{
+    margin-top: 40px;
+    font-size: 28px;
+    color: darkolivegreen;
+}
+.guanlid form{
+    position: absolute;
+    left: 30px;
+    text-align: right;
+}
+.guanlid form button{
+    position: absolute;
+   left: 60px;
+    margin-top: 30px;
+    width:60px;
+    height: 30px;
+    border: 0;
+    background: lightseagreen;
+}
+#fixx{
+    padding: 0;
+    background-color: #4F4E4F;
+    position: fixed;
+    top:0;
+    height: 50px;
+    width: 100%;
+}
+.leftd2{
+    float: left;
+    padding: 0;
+}
+.rightd2{
+    float: right;
+    padding: 0;
+}
+#fixx shape{
+    color: white;
+}
+#rright2{
+    width: 500px;
+}
+#rright2 .tao{
+    width:440px;
+}
+.tianjia{
+    font-size: 13px;
+    width: 380px;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+.tianjia textarea{
+    margin-top: 20px;
+}
+.tianfen{
+    padding: 30px;
+    font-size:13px ;
+    width: 380px;
+}
+.tianfen input{
+    margin-top: 20px;
+}
+.quet{
+    width:70px;
+    height: 30px;
+    margin-top: 20px;
+}
+.biaoqian{
+    width:100px;
+    height: 40px;
+    font-size: 30px;
+    color: orangered;
+    position: relative;
+    display: inline-block;
+}
+.content{
+    position: relative;
+    top: 120px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.fenhou{
+    width: 250px;
+    height: 350px;
+    border: #BBBBBB 0.5px solid;
+}
+.uname{
+    position: absolute;
+    top:240px;
+}
+.unitprice{
+    width: 60px;
+    height: 25px;
+    position: absolute;
+    top: 255px;
+}
+.ucontent{
+    width:200px ;
+    height: 25px;
+    position: absolute;
+    top:295px;
+}
+.zhuti{
+    position: relative;
+    margin-top: 140px;
+}
+.tree{
+    width: 250px;
+    position: absolute;
+    left: 30px;
+    border: orangered 1px solid;
+    padding-top: 20px;
+}
+.tree div{
+    margin-bottom: 20px;
+    padding-left: 30px;
+}
+.tree2{
+    width: 500px;
+    position: relative;
+    margin-left: 280px;
+    border: orangered 1px solid;
+}
+.tree2 div{
+    margin-left: 30px;
+    margin-top: 30px;
+    display: none;
+    float: left;
+}
+.tree div ::after{
+    content: ">";
+}
+.shangsh{
+    position: relative;
+    top:130px;
+}
+.shangsh button{
+    margin-top: 20px;
+    background: #F22D00;
+    border: 0;
+    width: 120px;
+    height: 50px;
+    color: white;
+    font-size: 20px;
+}
+.tupian{
+    position:absolute;
+    left: 35px;
+    width: 400px;
+    height: 400px;
+    border: #BBBBBB 1px solid;
+}
+.tutu{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.juti{
+    position: relative;
+    margin-left: 700px;
+    top:80px;
+}

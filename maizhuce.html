@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="zhuye.css" rel="stylesheet" type="text/css">
+    <script src="main.js" type="text/javascript" charset="UTF-8"></script>
+    <title>卖家注册</title>
+</head>
+<body onload="load1()">
+<iframe  id="submitFrame" style="display: none;width:0; height:0" name="submitFrame"  src="about:blank"></iframe>
+<div id="zong">
+    <div class="leftd">
+        <ul class="shape">
+         <li>欢迎注册圆圆圆网商家</li>
+        </ul>
+    </div>
+    <div class="rightd">
+        <ul class="shape">
+            <li><a href="che.php">购物车</a></li>
+            <li><a href="maijia.php">卖家中心</a></li>
+            <li><a href="zhuye.php">圆圆主页</a> </li>
+        </ul>
+    </div></div>
+<div  class="shang">
+<div id="shang1">
+    <div>阅读开店须知</div>
+    <div>确认自己符合开店的相关规定</div>
+</div>
+<div id="shang2">
+    <div>申请开店</div>
+    <div>需提供相关材料</div>
+</div>
+<div id="shang3">
+    认证成功
+</div>
+</div>
+<div id="div1">
+    <div class="xiao1">
+    <p>1、我在圆圆圆已经开了个店了，我用别人的身份证再开一个店可以吗？<br><br>
+
+        <span class="answer">答：不可以。未经圆圆圆平台同意，将本人圆圆圆账号提供给他人作开店使用，否则由此导致相关争议、诉讼及因店铺经营中的违法违规行为导致一切人身、财产权益损害，均由本人自行承担全部民事、行政及刑事责任。<br><br><br></span>
+
+    2、我可以把店铺转租给其他人吗?<br><br>
+
+        <span class="answer">答：不可以。未经圆圆圆平台同意，将本人圆圆圆账号提供给他人作开店使用，否则由此导致相关争议、诉讼及因店铺经营中的违法违规行为导致一切人身、财产权益损害，均由本人自行承担全部民事、行政及刑事责任。<br><br><br></span>
+
+    3、我可以开多个圆圆圆店吗?<br><br>
+
+        <span class="answer">答：不可以。一张身份证（一张营业执照）只能开一个圆圆圆店铺。开店后请保持营业执照存续状态，不得注销；如若发现营业执照被注销、吊销，圆圆圆将会对店铺做出永久关闭的处置。<br><br><br></span>
+
+    4、我已经开过圆圆圆店，现在想要注销原来的店铺重新开店，可以吗?<br><br>
+
+        <span class="answer">答：不可以，圆圆圆暂时不提供注销店铺的服务。用户一但成功开店就无法再用身份证（营业执照）另开一家圆圆圆店铺。</span></p></div>
+    <button>不同意</button><button type="button" onclick="do1()">同意并进行下一步</button>
+</div>
+<div id="div2">
+    <form method="post" action="maizhuce.php" target="submitFrame" onsubmit="check()">
+        <input type="text" id="username" name="name" placeholder="姓名"><span id="checktext1"></span><br>
+        <input type="text" id="shenfenzheng" placeholder="身份证号"><sapn id="checktext2"></sapn><br>
+        <input type="text" id="tel" placeholder="电话号码"><span id="checktext3"></span><br>性别：
+        <label for="sex1">男</label><input id="sex1" type="radio" name="sex" value="1" checked="checked">
+        <label for="sex">女</label><input id="sex" name="sex" type="radio" value="0">
+    </form>
+    <button onclick="do2()" type="submit">确认提交 </button>
+</div>
+<div id="div3">
+<p>申请成功，等待管理员审核（当然这是我编的，我才懒得做）</p>
+    <button onclick="do3()">确定</button>
+</div>
+</body>
+</html>
